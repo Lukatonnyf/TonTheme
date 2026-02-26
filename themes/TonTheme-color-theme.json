@@ -1,102 +1,116 @@
 {
 	"name": "TonTheme",
 
-	"colors": {
-		"editor.background": "#1B1913",
+	 "colors": {
+
+    // 🎯 GLOBAL / BASE
     "focusBorder": "#2A2822",
+
+    // 📝 EDITOR
+    "editor.background": "#1B1913",
     "editorCursor.foreground": "#636563",
-    "editor.selectionBackground":"#31495f",
+
+    "editor.selectionBackground": "#31495f",
     "editor.selectionHighlightBackground": "#31495f",
     "editor.inactiveSelectionBackground": "#264f7880",
+
     "editor.wordHighlightBackground": "#575757b8",
-    "editor.wordHighlightStrongBackground":"#004972b8",
+    "editor.wordHighlightStrongBackground": "#004972b8",
+
     "editor.findMatchBackground": "#31495f",
     "editor.findMatchHighlightBackground": "#3b4a5555",
     "editor.findRangeHighlightBackground": "#201E18",
+
     "editor.hoverHighlightBackground": "#2A2822",
+
     "editor.lineHighlightBackground": "#2A2822",
     "editor.lineHighlightBorder": "#1B1913",
+
+    "editorWhitespace.foreground": "#2a2a2a",
+    "editorIndentGuide.background": "#2a2a2a",
+    "editorRuler.foreground": "#201E18",
+
     "editorLink.activeForeground": "#4e94ce",
-    "editorWhitespace.foreground":"#2a2a2a",
-    "editorIndentGuide.background":"#2a2a2a",
-    "editorRuler.foreground":"#201E18",
+
     "editorOverviewRuler.findMatchForeground": "#877878",
 
+    // 🗂 EDITOR GROUPS & TABS
+    "editorGroup.border": "#1B1913",
+    "editorGroup.dropBackground": "#201E18",
 
+    "editorGroupHeader.tabsBackground": "#14120B",
+    "editorGroupHeader.tabsBorder": "#1a1a1a",
+
+    "tab.activeBackground": "#14120B",
+    "tab.inactiveBackground": "#201E18",
+    "tab.hoverBackground": "#1B1913",
+    "tab.activeBorder": "#14120B",
+
+    // 🧭 SIDEBAR (Explorer)
+    "sideBar.background": "#14120B",
+    "sideBar.border": "#1B1913",
+    "sideBarSectionHeader.foreground": "#a9a9a9",
+
+    // Itens da lista (arquivos)
+    "list.activeSelectionBackground": "#201E18",
+    "list.inactiveSelectionBackground": "#201E18",
+    "list.hoverBackground": "#1B1913",
+
+    // 📌 ACTIVITY BAR (ícones laterais)
+    "activityBar.background": "#14120B",
+    "activityBar.border": "#1B1913",
+    "activityBar.activeBackground": "#1B1913",
+    "activityBar.activeBorder": "#7d7d7d",
+
+    // 🏷 TITLE BAR (barra superior do app)
+    "titleBar.activeBackground": "#14120B",
+
+    // 🔍 WIDGETS (Find, Suggest, Hover)
     "editorWidget.background": "#1B1913",
     "editorWidget.border": "#2a2a2a",
+
+    // Hover
+    "editorHoverWidget.background": "#14120B",
+    "editorHoverWidget.border": "#2a2a2a",
+    "editorHoverWidget.foreground": "#a9a9a9",
+
+    // Suggest (autocomplete)
+    "editorSuggestWidget.foreground": "#bbbbbb",
+
+    // ⌨ INPUTS / DROPDOWN / QUICK INPUT
     "input.background": "#201E18",
     "input.border": "#2a2a2a",
     "input.foreground": "#a9a9a9",
 
-    // Hover Tooltip
-    "editorHoverWidget.background": "#14120B",
-    "editorHoverWidget.border": "#2a2a2a",
-    "editorHoverWidget.foreground": "#a9a9a9",
-     "editorSuggestWidget.foreground": "#bbbbbb",
-
-     // Group and Guides to Editor
-    "editorGroup.dropBackground": "#201E18",
-    "editorGroup.border": "#1B1913",
-
-    //  Group and Guides to Editor - Open tabs menu
-    "editorGroupHeader.tabsBackground": "#14120B",
-    "editorGroupHeader.tabsBorder": "#1a1a1a",
-    "tab.activeBackground": "#14120B",
-    "tab.inactiveBackground":"#201E18",
-    "tab.hoverBackground":  "#1B1913",
-    "tab.activeBorder": "#14120B",
-
-    // SideBar
-    "sideBar.background": "#14120B",
-    "sideBarSectionHeader.foreground": "#a9a9a9",
-    "sideBar.border": "#1B1913",
-
-    // SideBar - Activetys Bar
-    "activityBar.background": "#14120B",
-    "activityBar.border": "#1B1913",
-    "activityBar.activeBorder": "#7d7d7d",
-    "activityBar.activeBackground":"#1B1913",
-
-    // Header Bar
-    "titleBar.activeBackground": "#14120B",
-
-    // Terminal
-    "panel.background": "#14120B",
-    "terminal.background": "#14120B",
-
-    // StatusBar
-    "statusBar.background": "#14120B",
-    "statusBarItem.focusBorder": "#2A2822",
-    "statusBarItem.hoverBackground": "#1B1913",
-    "statusBar.debuggingBackground": "#14120B",
-    "statusBar.noFolderBackground": "#14120B",
-
-    // Explorer
-    "list.activeSelectionBackground": "#201E18",
-  	"list.inactiveSelectionBackground": "#201E18",
-    "list.hoverBackground": "#1B1913",
+    "dropdown.background": "#1B1913",
+    "dropdown.border": "#2A2822",
+    "dropdown.foreground": "#FFFFFF",
 
     // Quick Open (Ctrl + P)
     "quickInput.background": "#1B1913",
     "quickInput.foreground": "#a9a9a9",
     "quickInputList.focusBackground": "#2A2822",
 
-    "dropdown.background": "#1B1913",
-    "dropdown.border": "#2A2822",
-    "dropdown.foreground": "#FFFFFF",
-
-    "button.background": "#313030",
-    "button.hoverBackground": "#424141",
-    "button.foreground": "#d1cfcf",
-
-
+    // 📋 MENUS
     "menu.background": "#14120B",
     "menu.foreground": "#a9a9a9",
     "menu.selectionForeground": "#FFFFFF",
 
-"editor.tokenColorCustomizations": {}
+    // 🔘 BUTTONS
+    "button.background": "#313030",
+    "button.hoverBackground": "#424141",
+    "button.foreground": "#d1cfcf",
 
+    // 🖥 TERMINAL & PANEL
+    "panel.background": "#14120B",
+    "terminal.background": "#14120B",
+
+    // 📊 STATUS BAR
+    "statusBar.background": "#14120B",
+    "statusBar.debuggingBackground": "#14120B",
+    "statusBar.noFolderBackground": "#14120B",
+    "statusBarItem.focusBorder": "#2A2822",
+    "statusBarItem.hoverBackground": "#1B1913"
 
   },
 
