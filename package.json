@@ -3,6 +3,7 @@
   "displayName": "TonTheme",
   "description": "TonTheme",
   "version": "0.0.1",
+  "publisher": "Lukatonny Souza Ferreira",
   "engines": {
     "vscode": "^1.103.0"
   },
