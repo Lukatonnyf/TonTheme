@@ -28,3 +28,7 @@ TonTheme é um tema escuro moderno para o **Visual Studio Code**, desenvolvido p
 1. Clone ou baixe o repositório:
    ```bash
    git clone https://github.com/seu-usuario/ton-theme.git
+   ```
+
+   #### IB
+   TokenColors: [@](https://github.com/miguelsolorio/min-theme)
