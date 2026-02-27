@@ -1,16 +1,30 @@
-# tontheme README
+# TonTheme
 
-## Working with Markdown
+TonTheme é um tema escuro moderno para o **Visual Studio Code**, desenvolvido para programadores que passam longas horas codificando e precisam de uma experiência visual clara, consistente e confortável.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+---
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## 🌈 Paleta de cores
 
-## For more information
+- **Editor**: fundo escuro (#1B1913) com cursor discreto e realce suave de seleção.
+- **Tokens de código**: cores distintas para funções, variáveis, strings, números e comentários, garantindo contraste e legibilidade.
+- **Interface**: barras de atividade, abas, sidebar e terminal com cores harmônicas que não distraem.
+- **Markdown**: suporte aprimorado para títulos, links, ênfases e listas com cores personalizadas.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+---
 
-**Enjoy!**
+## ⚡ Recursos
+
+- Tema escuro elegante, fácil para os olhos.
+- Destaque de sintaxe completo para múltiplas linguagens.
+- Markdown customizado: títulos, links, listas e pontuação destacados.
+- Realce semântico (`semanticHighlighting`) ativado.
+- Foco na experiência do desenvolvedor: menus, barras e widgets totalmente integrados à paleta.
+
+---
+
+## 📦 Instalação
+
+1. Clone ou baixe o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/ton-theme.git
