@@ -4,7 +4,7 @@
 
 # 
 
-<img width="1919" height="1032" alt="Captura de tela 2026-02-26 221731" src="https://github.com/user-attachments/assets/a5b7a661-9839-4bd7-abc7-2361f67f736a" />
+<img width="1919" height="1033" alt="Captura de tela 2026-02-26 232229" src="https://github.com/user-attachments/assets/3a99de44-3466-4f07-9fcb-275cf94b4194" />
 
 #
 
