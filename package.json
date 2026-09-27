@@ -3,7 +3,7 @@
   "displayName": "TonTheme",
   "description": "TonTheme",
   "version": "0.0.1",
-  "publisher": "Lukatonny Souza Ferreira",
+  "publisher": "Lukatonny",
   "engines": {
     "vscode": "^1.103.0"
   },
@@ -18,5 +18,8 @@
         "path": "./themes/TonTheme-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.9.2"
   }
 }
